@@ -1,0 +1,25 @@
+{
+  "name": "esp-zncp-client",
+  "version": "0.0.1",
+  "description": "A library supporting SLIP communication with an Espressif ESP32-H2 or ESP32-C6 running the esp_zigbee_ncp example from the esp-zigbee-sdk.",
+  "keywords": "zigbee, esp32",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/litui/esp-zncp-client.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Aria Burrell",
+      "email": "litui@litui.ca",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bakercp/PacketSerial": "~1.4.0"
+  },
+  "frameworks": "arduino",
+  "platforms": "*"
+}
